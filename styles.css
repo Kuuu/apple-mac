@@ -9,14 +9,14 @@ nav {
   padding: 0;
 }
 
-ul {
+nav ul {
   margin: 0;
   font-weight: lighter;
   font-size: 14px;
   line-height: 44px;
 }
 
-li {
+nav li {
   display: inline-block;
   color: white;
   margin: 0 38px;
@@ -39,8 +39,40 @@ li {
 /* PRODUCTS BAR */
 .products-bar {
   background-color: #F6F6F6;
+  color: black;
   height: 92px;
   padding: 12px 0;
+  text-align: center;
+}
+
+.products-bar ul {
+  margin: 0;
+  font-weight: lighter;
+  font-size: 11px;
+  padding: 0;
+}
+
+.products-bar li {
+  display: inline-block;
+  color: black;
+  vertical-align: middle;
+  margin: 0 15px;
+  position: relative;
+}
+
+.products-bar img {
+  display: block;
+  margin: 5px auto;
+}
+
+.products-bar span {
+  position: absolute;
+  display: block;
+  font-size: 10px;
+  color: #ef5602;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
 }
 
 .title-container {
