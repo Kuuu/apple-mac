@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: 'SF UI Text';
+}
+
+nav {
+  text-align: center;
+  background-color: #313131;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  font-weight: lighter;
+  font-size: 14px;
+  line-height: 44px;
+}
+
+li {
+  display: inline-block;
+  color: white;
+  margin: 0 38px;
+}
+
+.nav-img {
+  width: 16px;
+  padding: 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.nav-img-smaller {
+  width: 14px;
+  padding: 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* PRODUCTS BAR */
+.products-bar {
+  background-color: #F6F6F6;
+  height: 92px;
+  padding: 12px 0;
+}
+
+.title-container {
+  background-color: #FAFAFA;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 5px;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 36px;
+  margin: 0;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 68px;
+  margin: 15px 0;
+}
+
+a {
+  text-decoration: none;
+  color: #0070C9;
+  font-weight: 400;
+  font-size: 23px;
+  margin: 0 20px;
+}
+
+.title-img {
+  display: block;
+  margin: 40px auto;
+}
+
+.macmini-container {
+  text-align: center;
+  background-color: black;
+  color: white;
+  margin-top: 30px;
+  overflow: hidden;
+  padding-top: 80px;
+}
+
+.macmini-container a {
+  color: #66BBFF;
+}
+
+.macmini-img {
+  display: block;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-top: -300px;
+}
+
+.macmini-text {
+  width: 25%;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
