@@ -82,11 +82,26 @@ nav li {
   padding-bottom: 5px;
 }
 
-h2 {
+h4 {
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 30px;
+  margin: 0;
+}
+
+h3 {
   font-weight: 600;
   font-size: 32px;
   line-height: 36px;
   margin: 0;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 36px;
+  margin: 0;
+  padding-bottom: 20px;
 }
 
 h1 {
@@ -101,7 +116,12 @@ a {
   color: #0070C9;
   font-weight: 400;
   font-size: 23px;
-  margin: 0 20px;
+  margin: 15px;
+}
+
+p {
+  margin-top: 15px;
+  display: inline-block;
 }
 
 .title-img {
@@ -118,7 +138,7 @@ a {
   padding-top: 80px;
 }
 
-.macmini-container a {
+.macmini-container a, .dark-block a {
   color: #66BBFF;
 }
 
@@ -132,6 +152,54 @@ a {
 .macmini-text {
   width: 25%;
   margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+.info-blocks {
+  text-align: center;
+  margin: 0 auto;
+  width: 92%;
+}
+
+.info-block {
+  margin-top: 30px;
+  margin-right: 25px;
+  padding: 0;
+  display: inline-block;
+  vertical-align: top;
+  width: 40%;
+  height: 605px;
+  background-color: #121217;
+  color: white;
+  padding-top: 60px;
+}
+
+.light-block {
+  background-color: #FAFAFA;
+  color: #111111;
+}
+
+.light-block h4 {
+  color: #333333;
+}
+
+.macbook-info-img {
+  margin-top: 120px;
+}
+
+.imac-block {
+  overflow: hidden;
+}
+
+.imac-info-img {
+  display: block;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-top: -200px;
+}
+
+.imac-text {
   position: relative;
   z-index: 2;
 }
