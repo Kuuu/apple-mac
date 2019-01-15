@@ -101,7 +101,7 @@ h2 {
   font-size: 45px;
   line-height: 36px;
   margin: 0;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 h1 {
@@ -119,11 +119,6 @@ a {
   margin: 15px;
 }
 
-p {
-  margin-top: 15px;
-  display: inline-block;
-}
-
 .title-img {
   display: block;
   margin: 40px auto;
@@ -138,7 +133,7 @@ p {
   padding-top: 80px;
 }
 
-.macmini-container a, .dark-block a {
+.macmini-container a, .dark-block a, .mojave-block a {
   color: #66BBFF;
 }
 
@@ -162,9 +157,12 @@ p {
   width: 92%;
 }
 
+.left-block {
+  margin-right: 25px;
+}
+
 .info-block {
   margin-top: 30px;
-  margin-right: 25px;
   padding: 0;
   display: inline-block;
   vertical-align: top;
@@ -202,4 +200,59 @@ p {
 .imac-text {
   position: relative;
   z-index: 2;
+}
+
+.full-block {
+  text-align: center;
+  width: 75.2%;
+  height: 605px;
+  margin: 30px auto 0 auto;
+  padding-top: 60px;
+}
+
+.macs-compare-img {
+  display: block;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-top: 60px;
+}
+
+.mojave-block {
+  background-repeat: no-repeat;
+  background-image: url("https://www.apple.com/v/mac/home/ae/images/overview/mojave__cwrl96nd8k66_large.jpg");
+  background-size: 100% 665px;
+  color: white;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.mojave-block p, .giveback-block p {
+  font-size: 20px;
+  line-height: 10px;
+}
+
+.mojave-block h2, .giveback-block h2 {
+  margin: 20px 0 30px 0;
+}
+
+.mojave-block h4, .giveback-block h4 {
+  font-weight: 600;
+}
+
+.mojave-block a, .giveback-block a {
+  font-size: 20px;
+}
+
+.vertical-center {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.giveback-block h2 {
+  line-height: 25px;
 }
