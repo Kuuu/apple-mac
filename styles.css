@@ -3,20 +3,20 @@ body {
   font-family: 'SF UI Text';
 }
 
-nav {
+.site-nav {
   text-align: center;
   background-color: #313131;
   padding: 0;
 }
 
-nav ul {
+.site-nav ul {
   margin: 0;
   font-weight: lighter;
   font-size: 14px;
   line-height: 44px;
 }
 
-nav li {
+.site-nav li {
   display: inline-block;
   color: white;
   margin: 0 38px;
@@ -82,6 +82,27 @@ nav li {
   padding-bottom: 5px;
 }
 
+.title-container h2, .macmini-container h2 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 36px;
+  margin: 0;
+}
+
+.title-container h3, .macmini-container h3 {
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 68px;
+  margin: 15px 0;
+}
+
+.info-blocks h3 {
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 30px;
+  margin: 0;
+}
+
 h4 {
   font-weight: 400;
   font-size: 23px;
@@ -102,13 +123,6 @@ h2 {
   line-height: 36px;
   margin: 0;
   margin-bottom: 20px;
-}
-
-h1 {
-  font-weight: 700;
-  font-size: 55px;
-  line-height: 68px;
-  margin: 15px 0;
 }
 
 a {
@@ -233,16 +247,40 @@ a {
   line-height: 10px;
 }
 
-.mojave-block h2, .giveback-block h2 {
-  margin: 20px 0 30px 0;
-}
-
 .mojave-block h4, .giveback-block h4 {
   font-weight: 600;
 }
 
 .mojave-block a, .giveback-block a, .white-block a {
   font-size: 20px;
+}
+
+.mojave-block h2 {
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 30px;
+  margin: 0;
+}
+
+.mojave-block h3 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 36px;
+  margin: 20px 0 30px 0;
+}
+
+.giveback-block h2 {
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 25px;
+  margin: 0;
+}
+
+.giveback-block h3 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 25px;
+  margin: 20px 0 30px 0;
 }
 
 .vertical-center {
@@ -271,9 +309,10 @@ a {
   margin: 10px auto;
 }
 
-.white-block h5 {
+.white-block h2 {
   font-weight: 600;
   font-size: 20px;
+  line-height: normal;
   margin: 5px 0 15px 0;
 }
 
@@ -293,6 +332,13 @@ a {
 .what-makes-heading {
   text-align: center;
   margin: 100px 0 70px 0;
+}
+
+.what-makes-heading h2 {
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 68px;
+  margin: 15px 0;
 }
 
 .what-makes-block {
