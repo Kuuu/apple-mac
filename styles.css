@@ -1,7 +1,93 @@
+/*************************  GENERAL  **************************************/
+
 body {
   margin: 0;
   font-family: 'SF UI Text';
 }
+
+.grey-color {
+  color: #333333;
+}
+
+a {
+  text-decoration: none;
+  color: #0070C9;
+  font-weight: 400;
+  font-size: 23px;
+  margin: 15px;
+}
+
+a.light-link {
+  color: #66BBFF;
+}
+
+.info-blocks h2 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 36px;
+  margin: 0 0 20px 0;
+}
+
+.info-blocks h3 {
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 30px;
+  margin: 0;
+}
+
+.info-blocks {
+  text-align: center;
+  margin: 0 auto;
+  width: 92%;
+}
+
+.left-block {
+  margin-right: 25px;
+}
+
+.info-block {
+  margin-top: 30px;
+  padding: 0;
+  display: inline-block;
+  vertical-align: top;
+  width: 40%;
+  height: 605px;
+  background-color: #121217;
+  color: white;
+  padding-top: 60px;
+}
+
+.light-block {
+  background-color: #FAFAFA;
+  color: #111111;
+}
+
+.z-text {
+  position: relative;
+  z-index: 2;
+}
+
+.full-block {
+  text-align: center;
+  width: 75.2%;
+  height: 605px;
+  margin: 30px auto 0 auto;
+  padding-top: 60px;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.vertical-center {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/*************************  NAVIGATION  ***********************************/
 
 .site-nav {
   text-align: center;
@@ -37,6 +123,7 @@ body {
 }
 
 /* PRODUCTS BAR */
+
 .products-bar {
   background-color: #F6F6F6;
   color: black;
@@ -75,6 +162,8 @@ body {
   margin: 0 auto;
 }
 
+/*************************  MacBook Air  **********************************/
+
 .title-container {
   background-color: #FAFAFA;
   text-align: center;
@@ -82,60 +171,39 @@ body {
   padding-bottom: 5px;
 }
 
-.title-container h2, .macmini-container h2 {
+.title-container h2 {
   font-weight: 600;
   font-size: 32px;
   line-height: 36px;
   margin: 0;
 }
 
-.title-container h3, .macmini-container h3 {
+.title-container h3 {
   font-weight: 700;
   font-size: 55px;
   line-height: 68px;
   margin: 15px 0;
 }
 
-.info-blocks h3 {
-  font-weight: 400;
-  font-size: 23px;
-  line-height: 30px;
-  margin: 0;
+.title-img {
+  display: block;
+  margin: 40px auto;
 }
 
-h4 {
-  font-weight: 400;
-  font-size: 23px;
-  line-height: 30px;
-  margin: 0;
-}
+/*************************  Mac mini  *************************************/
 
-h3 {
+.macmini-container h2 {
   font-weight: 600;
   font-size: 32px;
   line-height: 36px;
   margin: 0;
 }
 
-h2 {
+.macmini-container h3 {
   font-weight: 700;
-  font-size: 45px;
-  line-height: 36px;
-  margin: 0;
-  margin-bottom: 20px;
-}
-
-a {
-  text-decoration: none;
-  color: #0070C9;
-  font-weight: 400;
-  font-size: 23px;
-  margin: 15px;
-}
-
-.title-img {
-  display: block;
-  margin: 40px auto;
+  font-size: 55px;
+  line-height: 68px;
+  margin: 15px 0;
 }
 
 .macmini-container {
@@ -145,10 +213,6 @@ a {
   margin-top: 30px;
   overflow: hidden;
   padding-top: 80px;
-}
-
-.macmini-container a, .dark-block a, .mojave-block a {
-  color: #66BBFF;
 }
 
 .macmini-img {
@@ -165,36 +229,7 @@ a {
   z-index: 2;
 }
 
-.info-blocks {
-  text-align: center;
-  margin: 0 auto;
-  width: 92%;
-}
-
-.left-block {
-  margin-right: 25px;
-}
-
-.info-block {
-  margin-top: 30px;
-  padding: 0;
-  display: inline-block;
-  vertical-align: top;
-  width: 40%;
-  height: 605px;
-  background-color: #121217;
-  color: white;
-  padding-top: 60px;
-}
-
-.light-block {
-  background-color: #FAFAFA;
-  color: #111111;
-}
-
-.light-block h4 {
-  color: #333333;
-}
+/*************************  4 other macs  *********************************/
 
 .macbook-info-img {
   margin-top: 120px;
@@ -211,18 +246,7 @@ a {
   margin-top: -200px;
 }
 
-.z-text {
-  position: relative;
-  z-index: 2;
-}
-
-.full-block {
-  text-align: center;
-  width: 75.2%;
-  height: 605px;
-  margin: 30px auto 0 auto;
-  padding-top: 60px;
-}
+/*************************  COMPARE MODELS  *******************************/
 
 .macs-compare-img {
   display: block;
@@ -231,29 +255,13 @@ a {
   margin-top: 60px;
 }
 
-.mojave-block {
-  background-repeat: no-repeat;
-  background-image: url("https://www.apple.com/v/mac/home/ae/images/overview/mojave__cwrl96nd8k66_large.jpg");
-  background-size: 100% 665px;
-  color: white;
+.compare-block h2 {
+  font-weight: 700;
+  font-size: 45px;
+  margin: 0 0 20px 0;
 }
 
-.inline-block {
-  display: inline-block;
-}
-
-.mojave-block p, .giveback-block p {
-  font-size: 20px;
-  line-height: 10px;
-}
-
-.mojave-block h4, .giveback-block h4 {
-  font-weight: 600;
-}
-
-.mojave-block a, .giveback-block a, .white-block a {
-  font-size: 20px;
-}
+/*************************  macOS Mojave  *********************************/
 
 .mojave-block h2 {
   font-weight: 600;
@@ -269,11 +277,33 @@ a {
   margin: 20px 0 30px 0;
 }
 
+.mojave-block {
+  background-repeat: no-repeat;
+  background-image: url("https://www.apple.com/v/mac/home/ae/images/overview/mojave__cwrl96nd8k66_large.jpg");
+  background-size: 100% 665px;
+  color: white;
+}
+
+.mojave-block p {
+  font-size: 20px;
+  line-height: 10px;
+}
+
+.mojave-block a {
+  font-size: 20px;
+}
+
+/*************************  GIVEBACK  *************************************/
+
 .giveback-block h2 {
   font-weight: 600;
   font-size: 23px;
   line-height: 25px;
   margin: 0;
+}
+
+.giveback-block h2 {
+  line-height: 25px;
 }
 
 .giveback-block h3 {
@@ -283,19 +313,22 @@ a {
   margin: 20px 0 30px 0;
 }
 
-.vertical-center {
-  position: relative;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+.giveback-block p {
+  font-size: 20px;
+  line-height: 10px;
 }
 
-.giveback-block h2 {
-  line-height: 25px;
+.giveback-block a {
+  font-size: 20px;
 }
 
-.white-block {
+/*************************  Delivery and Setup  ***************************/
+
+.delivery-setup-block a {
+  font-size: 20px;
+}
+
+.delivery-setup-block {
   margin: 30px 0;
   padding: 0;
   display: inline-block;
@@ -309,17 +342,25 @@ a {
   margin: 10px auto;
 }
 
-.white-block h2 {
+.delivery-setup-block p {
+  font-size: 20px;
+  line-height: 5px;
+  margin-top: 0;
+}
+
+.delivery-setup-block h2 {
   font-weight: 600;
   font-size: 20px;
   line-height: normal;
   margin: 5px 0 15px 0;
 }
 
-.white-block p {
-  font-size: 20px;
-  line-height: 5px;
-  margin-top: 0;
+/*************************  Accessories  **********************************/
+
+.accessories-block h2 {
+  font-weight: 700;
+  font-size: 45px;
+  margin: 0 0 20px 0;
 }
 
 .accessories-block {
@@ -329,9 +370,10 @@ a {
   color: black;
 }
 
-.what-makes-heading {
-  text-align: center;
-  margin: 100px 0 70px 0;
+/*************************  What makes a Mac a Mac?  **********************/
+
+.what-makes-blocks h2 {
+  margin-bottom: 30px;
 }
 
 .what-makes-heading h2 {
@@ -339,6 +381,11 @@ a {
   font-size: 55px;
   line-height: 68px;
   margin: 15px 0;
+}
+
+.what-makes-heading {
+  text-align: center;
+  margin: 100px 0 70px 0;
 }
 
 .what-makes-block {
@@ -357,10 +404,6 @@ a {
 
 .what-makes-blocks a {
   font-size: 17px;
-}
-
-.what-makes-blocks h2 {
-  margin-bottom: 30px;
 }
 
 .macos-what-makes-img {
